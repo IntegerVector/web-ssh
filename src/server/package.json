@@ -1,0 +1,13 @@
+{
+  "name": "web-ssh-server",
+  "version": "1.0.0",
+  "description": "Server for WebSSH project",
+  "main": "./app/sever.js",
+  "scripts": {
+    "build": "webpack --config ./webpack.config.js",
+    "server": "node ../../dist/server/server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}

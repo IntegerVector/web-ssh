@@ -1,0 +1,24 @@
+{
+  "name": "web-ssh",
+  "version": "1.0.0",
+  "description": "Simple Web SSH client right in your browser!",
+  "main": "./dist/server/server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IntegerVector/web-ssh.git"
+  },
+  "keywords": [
+    "SSH",
+    "WebSSH"
+  ],
+  "author": "IntegerVector",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IntegerVector/web-ssh/issues"
+  },
+  "homepage": "https://github.com/IntegerVector/web-ssh#readme",
+  "devDependencies": {
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.10.0"
+  }
+}
