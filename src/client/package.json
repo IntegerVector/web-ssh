@@ -4,7 +4,9 @@
   "description": "Client for WebSSH project",
   "main": "bundle.js",
   "scripts": {
-    "build": "webpack --config ./webpack.config.js"
+    "webpack": "webpack",
+    "build": "webpack --config ./webpack.config.js",
+    "dev": "webpack serve"
   },
   "devDependencies": {
     "@babel/core": "^7.18.6",

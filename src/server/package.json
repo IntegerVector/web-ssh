@@ -5,6 +5,7 @@
   "main": "./app/sever.js",
   "scripts": {
     "build": "webpack --config ./webpack.config.js",
+    "dev": "webpack --watch --config ./webpack.config.js",
     "server": "node ../../dist/server/server.js"
   },
   "dependencies": {

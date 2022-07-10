@@ -36,5 +36,12 @@ module.exports = {
   resolve: {
     modules: ["node_modules"],
     extensions: [".js"]
-  }
+  },
+  devServer: {
+    static: {
+      directory: path.join(__dirname, 'app'),
+    },
+    compress: true,
+    port: 9000,
+  },
 }
